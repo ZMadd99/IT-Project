@@ -1,4 +1,18 @@
-.thankyou-container {
+.question1-container {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.question1-text {
+  font-weight: 700;
+}
+
+.faq-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,25 +20,25 @@
   align-items: center;
   flex-direction: column;
 }
-.thankyou-navbar-interactive {
+.faq-navbar-interactive {
   background-color: #0060b9;
 }
-.thankyou-logo {
+.faq-logo {
   color: #ffffff;
   text-decoration: none;
 }
-.thankyou-login {
+.faq-login {
   color: #0060b9;
   width: 109px;
   margin-right: 32px;
   background-color: rgba(217, 217, 217, 0);
 }
-.thankyou-desktop-menu {
+.faq-desktop-menu {
   flex: 1;
   display: flex;
   justify-content: space-between;
 }
-.thankyou-links {
+.faq-links {
   flex: 1;
   width: 604px;
   display: flex;
@@ -33,40 +47,40 @@
   justify-content: center;
   background-color: #ffffff;
 }
-.thankyou-nav22 {
+.faq-nav22 {
   margin-left: var(--dl-space-space-unit);
 }
-.thankyou-nav32 {
+.faq-nav32 {
   margin-left: var(--dl-space-space-unit);
   border-color: rgba(0, 0, 0, 0);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.thankyou-nav42 {
+.faq-nav42 {
   margin-left: var(--dl-space-space-unit);
 }
-.thankyou-nav52 {
+.faq-nav52 {
   margin-left: var(--dl-space-space-unit);
 }
-.thankyou-buttons {
+.faq-buttons {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.thankyou-register {
+.faq-register {
   color: #0060b9;
   width: 151px;
 }
-.thankyou-burger-menu {
+.faq-burger-menu {
   display: none;
 }
-.thankyou-icon {
+.faq-icon {
   width: var(--dl-size-size-xsmall);
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
 }
-.thankyou-mobile-menu1 {
+.faq-mobile-menu1 {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -78,110 +92,158 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.thankyou-nav {
+.faq-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.thankyou-top {
+.faq-top {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.thankyou-close-menu {
+.faq-close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.thankyou-icon02 {
+.faq-icon02 {
   width: var(--dl-size-size-xsmall);
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
 }
-.thankyou-links1 {
+.faq-links1 {
   flex: 0 0 auto;
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
-.thankyou-nav121 {
+.faq-nav121 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.thankyou-nav221 {
+.faq-nav221 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.thankyou-nav321 {
+.faq-nav321 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.thankyou-nav421 {
+.faq-nav421 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.thankyou-nav521 {
+.faq-nav521 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.thankyou-buttons1 {
+.faq-buttons1 {
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.thankyou-icon04 {
+.faq-icon04 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.thankyou-icon06 {
+.faq-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.thankyou-icon08 {
+.faq-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.thankyou-image {
-  width: 635px;
-  height: 294px;
-  object-fit: cover;
+.faq-faq {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-fourunits);
+  background-color: #fafdff;
+}
+.faq-container1 {
+  display: flex;
+  max-width: 35%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.faq-text3 {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.faq-text4 {
+  text-align: left;
+}
+.faq-container2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media(max-width: 991px) {
+  .faq-text4 {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
 }
 @media(max-width: 767px) {
-  .thankyou-navbar-interactive {
+  .faq-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .thankyou-desktop-menu {
+  .faq-desktop-menu {
     display: none;
   }
-  .thankyou-burger-menu {
+  .faq-burger-menu {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .thankyou-nav121 {
+  .faq-nav121 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .thankyou-nav221 {
+  .faq-nav221 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .thankyou-nav321 {
+  .faq-nav321 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .thankyou-nav421 {
+  .faq-nav421 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .thankyou-nav521 {
+  .faq-nav521 {
     margin-bottom: var(--dl-space-space-unit);
+  }
+  .faq-faq {
+    flex-direction: column;
+  }
+  .faq-container1 {
+    max-width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .faq-text4 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .thankyou-navbar-interactive {
+  .faq-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .thankyou-mobile-menu1 {
+  .faq-mobile-menu1 {
     padding: 16px;
   }
 }
