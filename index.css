@@ -23,20 +23,6 @@
   }
 }
 
-.question1-container {
-  gap: var(--dl-space-space-unit);
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.question1-text {
-  font-weight: 700;
-}
-
 .home-container {
   width: 100%;
   display: flex;
@@ -55,33 +41,52 @@
   background-color: var(--dl-color-gray-white);
 }
 .home-navbar-interactive {
-  height: 82px;
-  background-color: #0060b9;
-}
-.home-container1 {
-  flex: 0 0 auto;
-  width: 1134px;
-  height: auto;
-  display: flex;
-  align-items: space-between;
-  flex-direction: column;
   background-color: #0060b9;
 }
 .home-logo {
   color: #ffffff;
-  align-self: center;
+  text-decoration: none;
+}
+.home-login {
+  color: #0060b9;
+  width: 109px;
+  margin-right: 32px;
+  background-color: rgba(217, 217, 217, 0);
 }
 .home-desktop-menu {
   flex: 1;
   display: flex;
   justify-content: space-between;
 }
+.home-links {
+  flex: 1;
+  width: 604px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.home-nav22 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-nav42 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-nav52 {
+  margin-left: var(--dl-space-space-unit);
+}
 .home-buttons {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+}
+.home-register {
+  color: #0060b9;
+  width: 151px;
 }
 .home-burger-menu {
   display: none;
@@ -125,7 +130,7 @@
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
 }
-.home-links {
+.home-links1 {
   flex: 0 0 auto;
   display: flex;
   align-self: flex-start;
@@ -135,16 +140,16 @@
 .home-nav12 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-nav22 {
+.home-nav221 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-nav32 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-nav42 {
+.home-nav421 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-nav52 {
+.home-nav521 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-buttons1 {
@@ -178,10 +183,11 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-links1 {
+.home-links2 {
   gap: 0;
   flex: 1;
   width: 454px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 0px;
   display: flex;
   align-items: center;
@@ -193,21 +199,7 @@
   justify-content: center;
   background-color: #ffffff;
 }
-.home-nav221 {
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.home-nav321 {
-  margin-left: var(--dl-space-space-unit);
-}
-.home-nav421 {
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.home-nav521 {
-  margin-left: var(--dl-space-space-unit);
-}
-.home-container2 {
+.home-container1 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: center;
@@ -231,6 +223,9 @@
 .home-hero-button1 {
   text-decoration: none;
 }
+.home-hero-button2 {
+  text-decoration: none;
+}
 .home-features {
   flex: 0 0 auto;
   width: 100%;
@@ -252,7 +247,7 @@
   padding-bottom: var(--dl-space-space-fourunits);
   justify-content: flex-start;
 }
-.home-container3 {
+.home-container2 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -265,68 +260,11 @@
   font-size: 18px;
   text-align: center;
 }
-.home-container4 {
+.home-container3 {
   width: 100%;
   display: grid;
   grid-gap: var(--dl-space-space-oneandhalfunits);
   grid-template-columns: 1fr 1fr;
-}
-.home-pricing {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home-banner {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home-faq {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home-faq1 {
-  gap: var(--dl-space-space-twounits);
-  width: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-fourunits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-fourunits);
-}
-.home-container5 {
-  display: flex;
-  max-width: 35%;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.home-text34 {
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.home-text35 {
-  text-align: left;
-}
-.home-container6 {
-  gap: var(--dl-space-space-oneandhalfunits);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 }
 .home-footer {
   flex: 0 0 auto;
@@ -335,33 +273,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.home-container7 {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.home-nav1 {
-  flex: 0 0 auto;
-  display: flex;
-  margin-top: 0px;
-  align-items: center;
-  flex-direction: row;
-}
-.home-nav222 {
-  margin-left: var(--dl-space-space-unit);
-}
-.home-nav322 {
-  margin-left: var(--dl-space-space-unit);
-}
-.home-nav422 {
-  margin-left: var(--dl-space-space-unit);
-}
-.home-nav522 {
-  margin-left: var(--dl-space-space-unit);
 }
 .home-separator {
   flex: 0 0 auto;
@@ -381,7 +292,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.home-container8 {
+.home-container4 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -413,7 +324,7 @@
   .home-hero1 {
     flex-direction: column;
   }
-  .home-container2 {
+  .home-container1 {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
@@ -428,11 +339,6 @@
     padding-right: var(--dl-space-space-threeunits);
   }
   .home-features-sub-heading {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
-  .home-text35 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -454,16 +360,16 @@
   .home-nav12 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-nav22 {
+  .home-nav221 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-nav32 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-nav42 {
+  .home-nav421 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-nav52 {
+  .home-nav521 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-hero1 {
@@ -482,21 +388,8 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .home-container4 {
+  .home-container3 {
     grid-template-columns: 1fr;
-  }
-  .home-faq1 {
-    flex-direction: column;
-  }
-  .home-container5 {
-    max-width: 100%;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .home-text35 {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
   }
   .home-footer1 {
     padding-left: var(--dl-space-space-twounits);
@@ -508,7 +401,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .home-container8 {
+  .home-container4 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
@@ -527,7 +420,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-container2 {
+  .home-container1 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-btn-group {
@@ -546,7 +439,7 @@
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .home-container8 {
+  .home-container4 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;

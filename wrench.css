@@ -35,18 +35,15 @@
 }
 .wrench-nav22 {
   margin-left: var(--dl-space-space-unit);
-}
-.wrench-nav32 {
-  margin-left: var(--dl-space-space-unit);
-  border-color: rgba(0, 0, 0, 0);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
+  text-decoration: none;
 }
 .wrench-nav42 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .wrench-nav52 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .wrench-buttons {
   display: flex;
@@ -107,13 +104,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.wrench-nav121 {
+.wrench-nav12 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .wrench-nav221 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.wrench-nav321 {
+.wrench-nav32 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .wrench-nav421 {
@@ -1044,13 +1041,13 @@
     align-items: center;
     justify-content: center;
   }
-  .wrench-nav121 {
+  .wrench-nav12 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .wrench-nav221 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .wrench-nav321 {
+  .wrench-nav32 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .wrench-nav421 {
