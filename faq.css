@@ -57,6 +57,7 @@
 }
 .faq-nav52 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .faq-buttons {
   display: flex;
